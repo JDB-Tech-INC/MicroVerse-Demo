@@ -1,0 +1,19 @@
+{
+  "name": "com.jbooth.microverse.demo",
+  "displayName": "MicroVerse-Demo",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jason Booth",
+    "email": "slipster216@gmail.com",
+    "url": "http://jdbtechservices.com/"
+  },
+  "unity": "2021.3",
+  "description": "Demo of MicroVerse",
+  "keywords": [
+    "MicroSplat",
+    "Terrain",
+    "Shader",
+    "MicroVerse"
+  ],
+  "type": "tool"
+}
