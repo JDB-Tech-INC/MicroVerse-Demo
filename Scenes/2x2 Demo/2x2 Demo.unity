@@ -277,6 +277,7 @@ MonoBehaviour:
     flags: 10
   seed: 0
   poissonDisk: {fileID: 570998590550230969, guid: 1e884d56bc6f441a9a9553bc6b29638a, type: 3}
+  poissonDiskStrength: 1
   density: 1
   occludeOthers: 1
   occludedByOthers: 1
@@ -366,7 +367,7 @@ GameObject:
   - component: {fileID: 91413974}
   - component: {fileID: 91413975}
   m_Layer: 0
-  m_Name: Grass (2)
+  m_Name: Scruff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -428,11 +429,11 @@ MonoBehaviour:
       falloffRange: {x: 0.55433214, y: 0.9}
     weight: 1
     weightNoise:
-      noiseType: 0
-      frequency: 5
-      amplitude: -5
+      noiseType: 3
+      frequency: 10
+      amplitude: -8
       offset: 0
-      balance: 0
+      balance: 0.65
       texture: {fileID: 0}
       textureST: {x: 0, y: 0, z: 1, w: 1}
     heightFilter:
@@ -1422,6 +1423,148 @@ MonoBehaviour:
     m_Closed: 1
   m_Knots:
     m_KnotsLink: []
+--- !u!1 &329437891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 329437892}
+  - component: {fileID: 329437893}
+  m_Layer: 0
+  m_Name: Grass2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &329437892
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329437891}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -131.40002, y: 20, z: -627}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 812944381}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &329437893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329437891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46ccaf781b4274541be57b97da3dabda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prototype:
+    prototype: {fileID: 398929321252300881, guid: 4e6885e0d11bd224fa27617a4657c329, type: 3}
+    alignToGround: 1
+    density: 1
+    dryColor: {r: 0, g: 0, b: 0, a: 0}
+    healthyColor: {r: 0, g: 0, b: 0, a: 0}
+    holeEdgePadding: 0
+    minWidth: 6
+    maxWidth: 6
+    minHeight: 3
+    maxHeight: 3
+    noiseSeed: 28831
+    noiseSpread: 1
+    positionJitter: 0
+    prototypeTexture: {fileID: 0}
+    renderMode: 1
+    targetCoverage: 0
+    useInstancing: 1
+    useDensityScaling: 1
+    usePrototypeMesh: 1
+  filterSet:
+    falloffFilter:
+      filterType: 0
+      texture: {fileID: 0}
+      splineArea: {fileID: 0}
+      splineAreaFalloff: 0
+      falloffRange: {x: 0.55433214, y: 0.9}
+    weight: 1
+    weightNoise:
+      noiseType: 3
+      frequency: 10
+      amplitude: 10
+      offset: 0
+      balance: 0.65
+      texture: {fileID: 0}
+      textureST: {x: 0, y: 0, z: 1, w: 1}
+    heightFilter:
+      enabled: 1
+      weight: 1
+      range: {x: 0, y: 50}
+      smoothness: {x: 0, y: 16}
+      noise:
+        noiseType: 0
+        frequency: 1
+        amplitude: 1
+        offset: 0
+        balance: 0
+        texture: {fileID: 0}
+        textureST: {x: 0, y: 0, z: 1, w: 1}
+    slopeFilter:
+      enabled: 0
+      weight: 1
+      range: {x: 0, y: 8}
+      smoothness: {x: 1, y: 2}
+      noise:
+        noiseType: 0
+        frequency: 1
+        amplitude: 1
+        offset: 0
+        balance: 0
+        texture: {fileID: 0}
+        textureST: {x: 0, y: 0, z: 1, w: 1}
+    angleFilter:
+      enabled: 0
+      weight: 1
+      range: {x: 0, y: 90}
+      smoothness: {x: 12, y: 12}
+      noise:
+        noiseType: 0
+        frequency: 1
+        amplitude: 1
+        offset: 0
+        balance: 0
+        texture: {fileID: 0}
+        textureST: {x: 0, y: 0, z: 1, w: 1}
+    curvatureFilter:
+      enabled: 0
+      weight: 1
+      range: {x: 0.6, y: 1}
+      smoothness: {x: 0.1, y: 0.1}
+      noise:
+        noiseType: 0
+        frequency: 1
+        amplitude: 1
+        offset: 0
+        balance: 0
+        texture: {fileID: 0}
+        textureST: {x: 0, y: 0, z: 1, w: 1}
+    textureFilterEnabled: 1
+    textureFilterMode: 0
+    textureFilters:
+    - layer: {fileID: 8574412962073106934, guid: 4fa17bb0d04343a468c71ae0e09d3e71, type: 2}
+      weight: 0
+    - layer: {fileID: 8574412962073106934, guid: 62e708eab30fd0748b5cba1c05c0e51c, type: 2}
+      weight: 0
+    - layer: {fileID: 8574412962073106934, guid: f156c511ce174ce4b878f04d31e11095, type: 2}
+      weight: 0
+  occludedByOthers: 1
 --- !u!1 &370074570
 GameObject:
   m_ObjectHideFlags: 0
@@ -2829,6 +2972,7 @@ MonoBehaviour:
     flags: 0
   seed: 828
   poissonDisk: {fileID: 570998590550230969, guid: 1e884d56bc6f441a9a9553bc6b29638a, type: 3}
+  poissonDiskStrength: 1
   density: 5
   occludeOthers: 1
   occludedByOthers: 1
@@ -3570,6 +3714,7 @@ MonoBehaviour:
     flags: 0
   seed: 5
   poissonDisk: {fileID: 570998590550230969, guid: 1e884d56bc6f441a9a9553bc6b29638a, type: 3}
+  poissonDiskStrength: 1
   density: 2
   occludeOthers: 1
   occludedByOthers: 1
@@ -3718,6 +3863,7 @@ MonoBehaviour:
     flags: 0
   seed: 53
   poissonDisk: {fileID: 570998590550230969, guid: 1e884d56bc6f441a9a9553bc6b29638a, type: 3}
+  poissonDiskStrength: 1
   density: 5
   occludeOthers: 1
   occludedByOthers: 1
@@ -3884,6 +4030,8 @@ Transform:
   m_Children:
   - {fileID: 143445385}
   - {fileID: 91413974}
+  - {fileID: 909808701}
+  - {fileID: 329437892}
   m_Father: {fileID: 685518930}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4177,6 +4325,148 @@ MonoBehaviour:
     textureFilterEnabled: 0
     textureFilterMode: 0
     textureFilters: []
+--- !u!1 &909808700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 909808701}
+  - component: {fileID: 909808702}
+  m_Layer: 0
+  m_Name: Heather
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &909808701
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909808700}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -131.40002, y: 20, z: -627}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 812944381}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &909808702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909808700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46ccaf781b4274541be57b97da3dabda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prototype:
+    prototype: {fileID: 8267427934229748759, guid: cce04f533c148314abf74aff71206ec7, type: 3}
+    alignToGround: 1
+    density: 0.4
+    dryColor: {r: 0, g: 0, b: 0, a: 0}
+    healthyColor: {r: 0, g: 0, b: 0, a: 0}
+    holeEdgePadding: 0
+    minWidth: 0.5
+    maxWidth: 2
+    minHeight: 0.5
+    maxHeight: 3
+    noiseSeed: 288182
+    noiseSpread: 5
+    positionJitter: 0
+    prototypeTexture: {fileID: 0}
+    renderMode: 1
+    targetCoverage: 0
+    useInstancing: 1
+    useDensityScaling: 1
+    usePrototypeMesh: 1
+  filterSet:
+    falloffFilter:
+      filterType: 0
+      texture: {fileID: 0}
+      splineArea: {fileID: 0}
+      splineAreaFalloff: 0
+      falloffRange: {x: 0.55433214, y: 0.9}
+    weight: 0.005
+    weightNoise:
+      noiseType: 3
+      frequency: 10
+      amplitude: 10
+      offset: 0
+      balance: 0.7
+      texture: {fileID: 0}
+      textureST: {x: 0, y: 0, z: 1, w: 1}
+    heightFilter:
+      enabled: 1
+      weight: 1
+      range: {x: 0, y: 50}
+      smoothness: {x: 0, y: 16}
+      noise:
+        noiseType: 0
+        frequency: 1
+        amplitude: 1
+        offset: 0
+        balance: 0
+        texture: {fileID: 0}
+        textureST: {x: 0, y: 0, z: 1, w: 1}
+    slopeFilter:
+      enabled: 0
+      weight: 1
+      range: {x: 0, y: 8}
+      smoothness: {x: 1, y: 2}
+      noise:
+        noiseType: 0
+        frequency: 1
+        amplitude: 1
+        offset: 0
+        balance: 0
+        texture: {fileID: 0}
+        textureST: {x: 0, y: 0, z: 1, w: 1}
+    angleFilter:
+      enabled: 0
+      weight: 1
+      range: {x: 0, y: 90}
+      smoothness: {x: 12, y: 12}
+      noise:
+        noiseType: 0
+        frequency: 1
+        amplitude: 1
+        offset: 0
+        balance: 0
+        texture: {fileID: 0}
+        textureST: {x: 0, y: 0, z: 1, w: 1}
+    curvatureFilter:
+      enabled: 0
+      weight: 1
+      range: {x: 0.6, y: 1}
+      smoothness: {x: 0.1, y: 0.1}
+      noise:
+        noiseType: 0
+        frequency: 1
+        amplitude: 1
+        offset: 0
+        balance: 0
+        texture: {fileID: 0}
+        textureST: {x: 0, y: 0, z: 1, w: 1}
+    textureFilterEnabled: 1
+    textureFilterMode: 0
+    textureFilters:
+    - layer: {fileID: 8574412962073106934, guid: 4fa17bb0d04343a468c71ae0e09d3e71, type: 2}
+      weight: 0
+    - layer: {fileID: 8574412962073106934, guid: 62e708eab30fd0748b5cba1c05c0e51c, type: 2}
+      weight: 0
+    - layer: {fileID: 8574412962073106934, guid: f156c511ce174ce4b878f04d31e11095, type: 2}
+      weight: 0
+  occludedByOthers: 1
 --- !u!1 &935665221
 GameObject:
   m_ObjectHideFlags: 0
@@ -4428,6 +4718,7 @@ MonoBehaviour:
     flags: 8
   seed: 0
   poissonDisk: {fileID: 570998590550230969, guid: 1e884d56bc6f441a9a9553bc6b29638a, type: 3}
+  poissonDiskStrength: 1
   density: 4
   occludeOthers: 1
   occludedByOthers: 1
@@ -5399,6 +5690,7 @@ MonoBehaviour:
     flags: 0
   seed: 82
   poissonDisk: {fileID: 570998590550230969, guid: 1e884d56bc6f441a9a9553bc6b29638a, type: 3}
+  poissonDiskStrength: 1
   density: 5
   occludeOthers: 1
   occludedByOthers: 1
