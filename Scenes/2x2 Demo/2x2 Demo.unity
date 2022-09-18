@@ -2381,7 +2381,7 @@ GameObject:
   m_Component:
   - component: {fileID: 589315058}
   m_Layer: 0
-  m_Name: DeadForest
+  m_Name: PineForest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
