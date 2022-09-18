@@ -12,7 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10ede25ccd6fd4e8e98a828e1f7c552d, type: 3}
   m_Name: Example-Houses
   m_EditorClassIdentifier: 
-  contentType: 0
-  author: 
-  packName: 
-  contents: []
+  contentType: 3
+  author: Jason Booth
+  packName: MicroVerse-Examples
+  contents:
+  - prefab: {fileID: 3724235934056907498, guid: 283670f33ba68440fafe6d6266043ff7, type: 3}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: {fileID: 0}
+  - prefab: {fileID: 7892030429158444947, guid: 62e2ce16d9f2447f4a0ec95dd5a91044, type: 3}
+    previewImage: {fileID: 0}
+    previewAsset: {fileID: 0}
+    stamp: {fileID: 0}
