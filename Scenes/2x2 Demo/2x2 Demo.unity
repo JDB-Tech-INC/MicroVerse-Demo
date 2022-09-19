@@ -2955,18 +2955,18 @@ MonoBehaviour:
     navMeshLod: 2147483647
     prefab: {fileID: 1666016183288146, guid: 215a971f0f2e59047bf9b5991ec49964, type: 3}
   randomizations:
-  - scaleHeightRange: {x: 2, y: 4}
-    scaleWidthRange: {x: 2, y: 4}
+  - scaleHeightRange: {x: 8, y: 16}
+    scaleWidthRange: {x: 8, y: 16}
     sink: 0
     scaleMultiplierAtBoundaries: 1
     flags: 0
-  - scaleHeightRange: {x: 2, y: 3}
-    scaleWidthRange: {x: 2, y: 3}
+  - scaleHeightRange: {x: 8, y: 12}
+    scaleWidthRange: {x: 8, y: 12}
     sink: 0
     scaleMultiplierAtBoundaries: 1
     flags: 0
-  - scaleHeightRange: {x: 2, y: 4}
-    scaleWidthRange: {x: 2, y: 4}
+  - scaleHeightRange: {x: 8, y: 16}
+    scaleWidthRange: {x: 8, y: 16}
     sink: 0
     scaleMultiplierAtBoundaries: 1
     flags: 0
@@ -3846,18 +3846,18 @@ MonoBehaviour:
     navMeshLod: 2147483647
     prefab: {fileID: 1666016183288146, guid: 215a971f0f2e59047bf9b5991ec49964, type: 3}
   randomizations:
-  - scaleHeightRange: {x: 3, y: 4}
-    scaleWidthRange: {x: 3, y: 4}
+  - scaleHeightRange: {x: 12, y: 16}
+    scaleWidthRange: {x: 12, y: 16}
     sink: 0
     scaleMultiplierAtBoundaries: 1
     flags: 0
-  - scaleHeightRange: {x: 2, y: 3}
-    scaleWidthRange: {x: 2, y: 3}
+  - scaleHeightRange: {x: 4, y: 12}
+    scaleWidthRange: {x: 4, y: 12}
     sink: 0
     scaleMultiplierAtBoundaries: 1
     flags: 0
-  - scaleHeightRange: {x: 1, y: 4}
-    scaleWidthRange: {x: 1, y: 4}
+  - scaleHeightRange: {x: 3, y: 12}
+    scaleWidthRange: {x: 3, y: 12}
     sink: 0
     scaleMultiplierAtBoundaries: 1
     flags: 0
