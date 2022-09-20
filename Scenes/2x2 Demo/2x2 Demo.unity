@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 935665222}
-  m_IndirectSpecularColor: {r: 0.3812887, g: 0.344889, b: 0.37732783, a: 1}
+  m_IndirectSpecularColor: {r: 0.3803934, g: 0.34463724, b: 0.37718588, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2174,6 +2174,54 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3758094386669973409, guid: 584f3064077b61b4ab796e623d5d1653, type: 3}
   m_PrefabInstance: {fileID: 1724591893}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &521645713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 521645714}
+  - component: {fileID: 521645715}
+  m_Layer: 0
+  m_Name: Birds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &521645714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521645713}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 685518930}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &521645715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521645713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16d5235332b9e4ee9a94bca613565efe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ambient: {fileID: 11400000, guid: 0bd8f70df9bf44a69b47ba7353d2b4fe, type: 2}
+  falloff: 0
+  falloffParams: {x: 0.8, y: 1}
+  spline: {fileID: 0}
 --- !u!1 &547278827
 GameObject:
   m_ObjectHideFlags: 0
@@ -3085,6 +3133,7 @@ Transform:
   - {fileID: 873008032}
   - {fileID: 589315058}
   - {fileID: 812944381}
+  - {fileID: 521645714}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5083,6 +5132,7 @@ GameObject:
   - component: {fileID: 1077607374}
   - component: {fileID: 1077607376}
   - component: {fileID: 1077607375}
+  - component: {fileID: 1077607377}
   m_Layer: 0
   m_Name: VillagePath2
   m_TagString: Untagged
@@ -5262,6 +5312,22 @@ MonoBehaviour:
     m_Closed: 0
   m_Knots:
     m_KnotsLink: []
+--- !u!114 &1077607377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077607373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16d5235332b9e4ee9a94bca613565efe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ambient: {fileID: 11400000, guid: bec524c92c5ea4cb39cc79d0161f6da1, type: 2}
+  falloff: 3
+  falloffParams: {x: 4, y: 30}
+  spline: {fileID: 1077607376}
 --- !u!1 &1087681873
 GameObject:
   m_ObjectHideFlags: 0
