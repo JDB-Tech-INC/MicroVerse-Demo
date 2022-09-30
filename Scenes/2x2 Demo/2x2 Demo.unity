@@ -356,7 +356,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 1
-    textureFilterMode: 1
+    otherTextureWeight: 0
     textureFilters:
     - layer: {fileID: 8574412962073106934, guid: d306062c2d1ceee42ad7792bdcd6f941, type: 2}
       weight: 1
@@ -635,7 +635,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 1
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters:
     - layer: {fileID: 8574412962073106934, guid: 4fa17bb0d04343a468c71ae0e09d3e71, type: 2}
       weight: 0
@@ -1039,7 +1039,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 1
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters:
     - layer: {fileID: 8574412962073106934, guid: 4fa17bb0d04343a468c71ae0e09d3e71, type: 2}
       weight: 0
@@ -1872,7 +1872,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 1
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters:
     - layer: {fileID: 8574412962073106934, guid: 4fa17bb0d04343a468c71ae0e09d3e71, type: 2}
       weight: 0
@@ -2001,7 +2001,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 0
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters: []
 --- !u!1 &372049028
 GameObject:
@@ -2288,7 +2288,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 0
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters: []
 --- !u!1 &433998231
 GameObject:
@@ -2436,7 +2436,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 0
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters: []
 --- !u!1 &438477680
 GameObject:
@@ -2636,7 +2636,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 0
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters: []
 --- !u!4 &505651379 stripped
 Transform:
@@ -3040,7 +3040,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 0
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters: []
 --- !u!1 &627978658
 GameObject:
@@ -3188,7 +3188,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 0
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters: []
 --- !u!1001 &630941240
 PrefabInstance:
@@ -3434,7 +3434,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 0
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters: []
 --- !u!1 &682270904
 GameObject:
@@ -3587,7 +3587,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 0
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters: []
 --- !u!1 &685518928
 GameObject:
@@ -4338,7 +4338,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 1
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters:
     - layer: {fileID: 8574412962073106934, guid: 62e708eab30fd0748b5cba1c05c0e51c, type: 2}
       weight: 0
@@ -4493,7 +4493,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 0
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters: []
 --- !u!1001 &773645320
 PrefabInstance:
@@ -5134,7 +5134,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 0
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters: []
 --- !u!1 &909808700
 GameObject:
@@ -5275,7 +5275,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 1
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters:
     - layer: {fileID: 8574412962073106934, guid: 4fa17bb0d04343a468c71ae0e09d3e71, type: 2}
       weight: 0
@@ -5498,7 +5498,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 0
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters: []
 --- !u!1 &975160337
 GameObject:
@@ -5620,7 +5620,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 1
-    textureFilterMode: 1
+    otherTextureWeight: 0
     textureFilters:
     - layer: {fileID: 8574412962073106934, guid: d306062c2d1ceee42ad7792bdcd6f941, type: 2}
       weight: 1
@@ -6230,7 +6230,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 0
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters: []
 --- !u!1001 &1109128413
 PrefabInstance:
@@ -6691,7 +6691,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 0
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters:
     - layer: {fileID: 8574412962073106934, guid: 2c03ada0350f98242970f79591a1125b, type: 2}
       weight: 1
@@ -6843,7 +6843,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 0
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters: []
 --- !u!1 &1228862300
 GameObject:
@@ -8037,7 +8037,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 0
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters: []
 --- !u!114 &1791537138
 MonoBehaviour:
@@ -8149,7 +8149,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 0
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters: []
 --- !u!1001 &1792528432
 PrefabInstance:
@@ -8533,7 +8533,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 0
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters: []
 --- !u!1 &1980628088
 GameObject:
@@ -8657,7 +8657,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 0
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters: []
 --- !u!114 &1980628091
 MonoBehaviour:
@@ -8772,7 +8772,7 @@ MonoBehaviour:
         textureST: {x: 0, y: 0, z: 1, w: 1}
         channel: 0
     textureFilterEnabled: 0
-    textureFilterMode: 0
+    otherTextureWeight: 1
     textureFilters: []
 --- !u!1 &2029383541
 GameObject:
