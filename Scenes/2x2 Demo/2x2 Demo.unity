@@ -286,6 +286,7 @@ MonoBehaviour:
       filterType: 2
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.5720708, y: 1}
@@ -565,6 +566,7 @@ MonoBehaviour:
       filterType: 0
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.55433214, y: 0.9}
@@ -969,6 +971,7 @@ MonoBehaviour:
       filterType: 0
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.55433214, y: 0.9}
@@ -1802,6 +1805,7 @@ MonoBehaviour:
       filterType: 0
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.55433214, y: 0.9}
@@ -1931,6 +1935,7 @@ MonoBehaviour:
       filterType: 0
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.66315174, y: 1}
@@ -2218,6 +2223,7 @@ MonoBehaviour:
       filterType: 0
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.8, y: 0.9}
@@ -2341,6 +2347,7 @@ MonoBehaviour:
     filterType: 2
     texture: {fileID: 0}
     textureChannel: 0
+    textureParams: {x: 1, y: 0}
     splineArea: {fileID: 0}
     splineAreaFalloff: 0
     falloffRange: {x: 0.6320182, y: 1}
@@ -2366,6 +2373,7 @@ MonoBehaviour:
       filterType: 2
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.73342854, y: 0.9999999}
@@ -2516,6 +2524,11 @@ Terrain:
   m_GroupingID: 0
   m_RenderingLayerMask: 1
   m_AllowAutoConnect: 1
+--- !u!1 &444645520 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3758094386669973439, guid: 584f3064077b61b4ab796e623d5d1653, type: 3}
+  m_PrefabInstance: {fileID: 1724591893}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &447417702
 GameObject:
   m_ObjectHideFlags: 0
@@ -2566,6 +2579,7 @@ MonoBehaviour:
       filterType: 2
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.8, y: 1}
@@ -2643,6 +2657,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3758094386669973409, guid: 584f3064077b61b4ab796e623d5d1653, type: 3}
   m_PrefabInstance: {fileID: 1724591893}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &505651380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444645520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b21ccd769f61fa4da650c984a022eab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Target: {fileID: 1496886532}
+  m_AutoTargetPlayer: 1
+  m_UpdateType: 0
+  m_MoveSpeed: 10
+  m_TurnSpeed: 10
+  m_TurnSmoothing: 0
+  m_TiltMax: 75
+  m_TiltMin: 45
+  m_LockCursor: 0
+  m_VerticalAutoReturn: 0
 --- !u!1 &521645713
 GameObject:
   m_ObjectHideFlags: 0
@@ -2970,6 +3006,7 @@ MonoBehaviour:
       filterType: 0
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.8, y: 0.9}
@@ -3093,6 +3130,7 @@ MonoBehaviour:
     filterType: 2
     texture: {fileID: 0}
     textureChannel: 0
+    textureParams: {x: 1, y: 0}
     splineArea: {fileID: 0}
     splineAreaFalloff: 0
     falloffRange: {x: 0.6320182, y: 1}
@@ -3118,6 +3156,7 @@ MonoBehaviour:
       filterType: 2
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.73342854, y: 0.9999999}
@@ -3364,6 +3403,7 @@ MonoBehaviour:
       filterType: 2
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.8, y: 1}
@@ -3517,6 +3557,7 @@ MonoBehaviour:
       filterType: 4
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 299941130}
       splineAreaFalloff: 0
       falloffRange: {x: 0.8, y: 0.9}
@@ -4268,6 +4309,7 @@ MonoBehaviour:
       filterType: 4
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 299941130}
       splineAreaFalloff: 0
       falloffRange: {x: 0.8, y: 1}
@@ -4423,6 +4465,7 @@ MonoBehaviour:
       filterType: 4
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 299941130}
       splineAreaFalloff: 0
       falloffRange: {x: 0.8, y: 0.9}
@@ -5064,6 +5107,7 @@ MonoBehaviour:
       filterType: 2
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.8, y: 1}
@@ -5205,6 +5249,7 @@ MonoBehaviour:
       filterType: 0
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.55433214, y: 0.9}
@@ -5428,6 +5473,7 @@ MonoBehaviour:
       filterType: 0
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.8, y: 0.9}
@@ -5550,6 +5596,7 @@ MonoBehaviour:
       filterType: 2
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.5720708, y: 1}
@@ -5691,6 +5738,7 @@ MonoBehaviour:
     filterType: 1
     texture: {fileID: 0}
     textureChannel: 0
+    textureParams: {x: 1, y: 0}
     splineArea: {fileID: 0}
     splineAreaFalloff: 0
     falloffRange: {x: 0.48409903, y: 1}
@@ -6160,6 +6208,7 @@ MonoBehaviour:
       filterType: 0
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.8, y: 0.9}
@@ -6621,6 +6670,7 @@ MonoBehaviour:
       filterType: 0
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.5720708, y: 1}
@@ -6748,6 +6798,7 @@ MonoBehaviour:
     filterType: 2
     texture: {fileID: 0}
     textureChannel: 0
+    textureParams: {x: 1, y: 0}
     splineArea: {fileID: 0}
     splineAreaFalloff: 0
     falloffRange: {x: 0.6320182, y: 1}
@@ -6773,6 +6824,7 @@ MonoBehaviour:
       filterType: 2
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.73342854, y: 0.9999999}
@@ -7353,6 +7405,7 @@ MonoBehaviour:
     filterType: 1
     texture: {fileID: 0}
     textureChannel: 0
+    textureParams: {x: 1, y: 0}
     splineArea: {fileID: 0}
     splineAreaFalloff: 0
     falloffRange: {x: 0.8, y: 1}
@@ -7789,7 +7842,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: FreeLookCameraRig
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3758094386669973408, guid: 584f3064077b61b4ab796e623d5d1653, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 584f3064077b61b4ab796e623d5d1653, type: 3}
 --- !u!4 &1724591894 stripped
 Transform:
@@ -7846,6 +7900,7 @@ MonoBehaviour:
     filterType: 1
     texture: {fileID: 0}
     textureChannel: 0
+    textureParams: {x: 1, y: 0}
     splineArea: {fileID: 0}
     splineAreaFalloff: 0
     falloffRange: {x: 0.8, y: 1}
@@ -7967,6 +8022,7 @@ MonoBehaviour:
       filterType: 2
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.73342854, y: 0.9999999}
@@ -8057,6 +8113,7 @@ MonoBehaviour:
     filterType: 2
     texture: {fileID: 0}
     textureChannel: 0
+    textureParams: {x: 1, y: 0}
     splineArea: {fileID: 0}
     splineAreaFalloff: 0
     falloffRange: {x: 0.6320182, y: 1}
@@ -8079,6 +8136,7 @@ MonoBehaviour:
       filterType: 2
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.727673, y: 1}
@@ -8263,6 +8321,7 @@ MonoBehaviour:
     filterType: 1
     texture: {fileID: 0}
     textureChannel: 0
+    textureParams: {x: 1, y: 0}
     splineArea: {fileID: 0}
     splineAreaFalloff: 0
     falloffRange: {x: 0.8, y: 1}
@@ -8438,6 +8497,7 @@ MonoBehaviour:
     filterType: 2
     texture: {fileID: 0}
     textureChannel: 0
+    textureParams: {x: 1, y: 0}
     splineArea: {fileID: 0}
     splineAreaFalloff: 0
     falloffRange: {x: 0.74373925, y: 1}
@@ -8463,6 +8523,7 @@ MonoBehaviour:
       filterType: 2
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.73342854, y: 0.9999999}
@@ -8587,6 +8648,7 @@ MonoBehaviour:
       filterType: 2
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.8, y: 0.9}
@@ -8677,6 +8739,7 @@ MonoBehaviour:
     filterType: 2
     texture: {fileID: 0}
     textureChannel: 0
+    textureParams: {x: 1, y: 0}
     splineArea: {fileID: 0}
     splineAreaFalloff: 0
     falloffRange: {x: 0.6320182, y: 1}
@@ -8702,6 +8765,7 @@ MonoBehaviour:
       filterType: 2
       texture: {fileID: 0}
       textureChannel: 0
+      textureParams: {x: 1, y: 0}
       splineArea: {fileID: 0}
       splineAreaFalloff: 0
       falloffRange: {x: 0.73342854, y: 0.9999999}
