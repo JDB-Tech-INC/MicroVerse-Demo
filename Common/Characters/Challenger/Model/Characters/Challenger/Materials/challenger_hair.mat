@@ -35,7 +35,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap:
-        m_Texture: {fileID: 2800000, guid: 8d789775a75c5e94fa4007f289b19a1e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9849359caca34ccd8124a356a344f8fd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BentNormalMap:
@@ -47,7 +47,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 5b28d7ada5320cf41ac398cbc0a64475, type: 3}
+        m_Texture: {fileID: 2800000, guid: fd954929767c4890bd2986f1df550559, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CoatMaskMap:
@@ -83,7 +83,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FlowMap:
-        m_Texture: {fileID: 2800000, guid: d4b77a55bf0f99d45af89fd601b45224, type: 3}
+        m_Texture: {fileID: 2800000, guid: f930fd570c6d4d4b800640298d1b7cc1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HeightMap:
@@ -99,11 +99,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _KKFlowMap:
-        m_Texture: {fileID: 2800000, guid: d4b77a55bf0f99d45af89fd601b45224, type: 3}
+        m_Texture: {fileID: 2800000, guid: f930fd570c6d4d4b800640298d1b7cc1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 8d789775a75c5e94fa4007f289b19a1e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9849359caca34ccd8124a356a344f8fd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
@@ -115,7 +115,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 5b28d7ada5320cf41ac398cbc0a64475, type: 3}
+        m_Texture: {fileID: 2800000, guid: fd954929767c4890bd2986f1df550559, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMapOS:

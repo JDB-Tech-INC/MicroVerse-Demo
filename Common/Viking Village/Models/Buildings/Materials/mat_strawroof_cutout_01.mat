@@ -41,15 +41,15 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseColorMap:
-        m_Texture: {fileID: 2800000, guid: 23f9b61e82d1a484e8d09394b298c3f9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 51455868005044e581c5a20f722a85ff, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 23f9b61e82d1a484e8d09394b298c3f9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 51455868005044e581c5a20f722a85ff, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: dda9654122c08ad4ebc1d2c4aef2224e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8548821e8be74e09b584fac5855b486a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -73,7 +73,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 23f9b61e82d1a484e8d09394b298c3f9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 51455868005044e581c5a20f722a85ff, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
@@ -85,15 +85,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: dda9654122c08ad4ebc1d2c4aef2224e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8548821e8be74e09b584fac5855b486a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Occlusion:
-        m_Texture: {fileID: 2800000, guid: d67d76fd50a8ead43ab6c408277202a2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0ee8da1be17d4dad9767dff6131908b1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: d67d76fd50a8ead43ab6c408277202a2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0ee8da1be17d4dad9767dff6131908b1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:

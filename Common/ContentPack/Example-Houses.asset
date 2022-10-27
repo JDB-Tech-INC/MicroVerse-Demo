@@ -16,11 +16,11 @@ MonoBehaviour:
   author: Jason Booth
   packName: MicroVerse-Examples
   contents:
-  - prefab: {fileID: 3724235934056907498, guid: 283670f33ba68440fafe6d6266043ff7, type: 3}
+  - prefab: {fileID: 3724235934056907498, guid: 7d48e96735ca4df0a525e5ddd17d4301, type: 3}
     previewImage: {fileID: 0}
     previewAsset: {fileID: 0}
     stamp: {fileID: 0}
-  - prefab: {fileID: 7892030429158444947, guid: 62e2ce16d9f2447f4a0ec95dd5a91044, type: 3}
+  - prefab: {fileID: 7892030429158444947, guid: d862f656c4074ec0b463955cb4842293, type: 3}
     previewImage: {fileID: 0}
     previewAsset: {fileID: 0}
     stamp: {fileID: 0}
