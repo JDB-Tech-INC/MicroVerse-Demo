@@ -15,12 +15,18 @@ MonoBehaviour:
   contentType: 3
   author: Jason Booth
   packName: MicroVerse-Examples
+  id: 
+  previewGradient: {fileID: 0}
   contents:
   - prefab: {fileID: 3724235934056907498, guid: 7d48e96735ca4df0a525e5ddd17d4301, type: 3}
     previewImage: {fileID: 0}
     previewAsset: {fileID: 0}
-    stamp: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: A house which deforms the terrain around it
   - prefab: {fileID: 7892030429158444947, guid: d862f656c4074ec0b463955cb4842293, type: 3}
     previewImage: {fileID: 0}
     previewAsset: {fileID: 0}
-    stamp: {fileID: 0}
+    stamp: 
+    previewGradient: {fileID: 0}
+    description: A house which deforms the terrain around it
