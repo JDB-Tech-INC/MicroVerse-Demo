@@ -276,6 +276,7 @@ MonoBehaviour:
     scaleWidthRange: {x: 3, y: 6}
     sink: 0
     scaleMultiplierAtBoundaries: 1
+    weightRange: {x: 0, y: 0}
     flags: 26
   seed: 0
   poissonDisk: {fileID: 570998590550230969, guid: 1e884d56bc6f441a9a9553bc6b29638a, type: 3}
@@ -285,6 +286,11 @@ MonoBehaviour:
   occludedByOthers: 1
   minDistanceFromTree: 0
   maxDistanceFromTree: 0
+  minDistanceFromObject: 0
+  maxDistanceFromObject: 0
+  minDistanceFromParent: 0
+  maxDistanceFromParent: 0
+  sdfClamp: 0
   minHeight: -99999
   heightModAmount: 0
   heightModWidth: 5
@@ -305,6 +311,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -316,6 +323,7 @@ MonoBehaviour:
     weight: 0.195
     weightNoise:
       noiseType: 3
+      noiseSpace: 0
       frequency: 10
       amplitude: 10
       offset: 0
@@ -325,6 +333,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -334,6 +343,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -351,6 +361,7 @@ MonoBehaviour:
       smoothness: {x: 0, y: 10}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 2
         amplitude: 10
         offset: 0
@@ -365,6 +376,7 @@ MonoBehaviour:
       smoothness: {x: 6.3157897, y: 6.3157897}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -379,6 +391,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -393,6 +406,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -624,6 +638,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -635,6 +650,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 3
+      noiseSpace: 0
       frequency: 10
       amplitude: -8
       offset: 0
@@ -644,6 +660,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -653,6 +670,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -670,6 +688,7 @@ MonoBehaviour:
       smoothness: {x: 0, y: 16}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -684,6 +703,7 @@ MonoBehaviour:
       smoothness: {x: 1.5789474, y: 3.1578948}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -698,6 +718,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -712,6 +733,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -731,6 +753,12 @@ MonoBehaviour:
   occludedByOthers: 1
   minDistanceFromTree: 0
   maxDistanceFromTree: 0
+  minDistanceFromObject: 0
+  maxDistanceFromObject: 0
+  minDistanceFromParent: 0
+  maxDistanceFromParent: 0
+  sdfClamp: 0
+  weightRange: {x: 0, y: 999999}
 --- !u!1001 &92004397
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1183,6 +1211,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -1194,6 +1223,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 512
       amplitude: 10
       offset: 0
@@ -1203,6 +1233,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -1212,6 +1243,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -1229,6 +1261,7 @@ MonoBehaviour:
       smoothness: {x: 0, y: 13}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -1243,6 +1276,7 @@ MonoBehaviour:
       smoothness: {x: 1.5789474, y: 1.5789474}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -1257,6 +1291,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -1271,6 +1306,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -1290,6 +1326,12 @@ MonoBehaviour:
   occludedByOthers: 1
   minDistanceFromTree: 0
   maxDistanceFromTree: 0
+  minDistanceFromObject: 0
+  maxDistanceFromObject: 0
+  minDistanceFromParent: 0
+  maxDistanceFromParent: 0
+  sdfClamp: 0
+  weightRange: {x: 0, y: 999999}
 --- !u!1 &146510962
 GameObject:
   m_ObjectHideFlags: 0
@@ -2058,6 +2100,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -2069,6 +2112,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 3
+      noiseSpace: 0
       frequency: 10
       amplitude: 10
       offset: 0
@@ -2078,6 +2122,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -2087,6 +2132,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -2104,6 +2150,7 @@ MonoBehaviour:
       smoothness: {x: 0, y: 16}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -2118,6 +2165,7 @@ MonoBehaviour:
       smoothness: {x: 1.5789474, y: 3.1578948}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -2132,6 +2180,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -2146,6 +2195,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -2165,6 +2215,12 @@ MonoBehaviour:
   occludedByOthers: 1
   minDistanceFromTree: 0
   maxDistanceFromTree: 0
+  minDistanceFromObject: 0
+  maxDistanceFromObject: 0
+  minDistanceFromParent: 0
+  maxDistanceFromParent: 0
+  sdfClamp: 0
+  weightRange: {x: 0, y: 999999}
 --- !u!1 &370074570
 GameObject:
   m_ObjectHideFlags: 0
@@ -2224,6 +2280,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -2235,6 +2292,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 100
       offset: 0
@@ -2244,6 +2302,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -2253,6 +2312,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -2270,6 +2330,7 @@ MonoBehaviour:
       smoothness: {x: 40, y: 40}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -2284,6 +2345,7 @@ MonoBehaviour:
       smoothness: {x: 6.3157897, y: 6.3157897}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -2298,6 +2360,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -2308,10 +2371,11 @@ MonoBehaviour:
     curvatureFilter:
       enabled: 1
       weight: 1
-      range: {x: 0.55000013, y: 1}
-      smoothness: {x: 0.1, y: 0.1}
+      range: {x: 0.4525268, y: 1}
+      smoothness: {x: 0, y: 0}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -2547,6 +2611,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -2558,6 +2623,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 1
       amplitude: 1
       offset: 0
@@ -2567,6 +2633,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -2576,6 +2643,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -2593,6 +2661,7 @@ MonoBehaviour:
       smoothness: {x: 0, y: 1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -2607,6 +2676,7 @@ MonoBehaviour:
       smoothness: {x: 6.3157897, y: 6.3157897}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -2621,6 +2691,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -2635,6 +2706,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -2706,6 +2778,7 @@ MonoBehaviour:
       blend: 0
     noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -2751,6 +2824,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -2762,6 +2836,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 1
       amplitude: 1
       offset: 0
@@ -2771,6 +2846,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -2780,6 +2856,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -2797,6 +2874,7 @@ MonoBehaviour:
       smoothness: {x: 20, y: 20}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -2811,6 +2889,7 @@ MonoBehaviour:
       smoothness: {x: 6.3157897, y: 6.3157897}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -2825,6 +2904,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -2839,6 +2919,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -2991,6 +3072,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -3002,6 +3084,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -3011,6 +3094,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -3020,6 +3104,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -3037,6 +3122,7 @@ MonoBehaviour:
       smoothness: {x: 0, y: 10}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -3051,6 +3137,7 @@ MonoBehaviour:
       smoothness: {x: 6.3157897, y: 6.3157897}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -3065,6 +3152,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -3079,6 +3167,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -3453,6 +3542,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -3464,6 +3554,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 1
       amplitude: 1
       offset: 0
@@ -3473,6 +3564,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -3482,6 +3574,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -3499,6 +3592,7 @@ MonoBehaviour:
       smoothness: {x: 20, y: 20}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -3513,6 +3607,7 @@ MonoBehaviour:
       smoothness: {x: 6.3157897, y: 6.3157897}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -3527,6 +3622,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -3541,6 +3637,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -3612,6 +3709,7 @@ MonoBehaviour:
       blend: 0
     noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -3657,6 +3755,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -3668,6 +3767,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 1
       amplitude: 1
       offset: 0
@@ -3677,6 +3777,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -3686,6 +3787,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -3703,6 +3805,7 @@ MonoBehaviour:
       smoothness: {x: 20, y: 20}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -3717,6 +3820,7 @@ MonoBehaviour:
       smoothness: {x: 6.3157897, y: 6.3157897}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -3731,6 +3835,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -3745,6 +3850,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -3938,6 +4044,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -3949,6 +4056,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -3958,6 +4066,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -3967,6 +4076,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -3984,6 +4094,7 @@ MonoBehaviour:
       smoothness: {x: 0, y: 10}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -3998,6 +4109,7 @@ MonoBehaviour:
       smoothness: {x: 0, y: 3.1578948}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 30
         amplitude: 0.5
         offset: 0
@@ -4012,6 +4124,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -4026,6 +4139,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -4098,18 +4212,21 @@ MonoBehaviour:
     scaleWidthRange: {x: 8, y: 16}
     sink: 0
     scaleMultiplierAtBoundaries: 1
+    weightRange: {x: 0, y: 0}
     flags: 16
   - weight: 0
     scaleHeightRange: {x: 8, y: 12}
     scaleWidthRange: {x: 8, y: 12}
     sink: 0
     scaleMultiplierAtBoundaries: 1
+    weightRange: {x: 0, y: 0}
     flags: 16
   - weight: 0
     scaleHeightRange: {x: 8, y: 16}
     scaleWidthRange: {x: 8, y: 16}
     sink: 0
     scaleMultiplierAtBoundaries: 1
+    weightRange: {x: 0, y: 0}
     flags: 16
   seed: 828
   poissonDisk: {fileID: 570998590550230969, guid: 1e884d56bc6f441a9a9553bc6b29638a, type: 3}
@@ -4119,6 +4236,11 @@ MonoBehaviour:
   occludedByOthers: 1
   minDistanceFromTree: 0
   maxDistanceFromTree: 0
+  minDistanceFromObject: 0
+  maxDistanceFromObject: 0
+  minDistanceFromParent: 0
+  maxDistanceFromParent: 0
+  sdfClamp: 0
   minHeight: -99999
   heightModAmount: 0
   heightModWidth: 5
@@ -4139,6 +4261,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -4150,6 +4273,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -4159,6 +4283,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -4168,6 +4293,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -4185,6 +4311,7 @@ MonoBehaviour:
       smoothness: {x: 0, y: 3}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -4199,6 +4326,7 @@ MonoBehaviour:
       smoothness: {x: 6.3157897, y: 6.3157897}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -4213,6 +4341,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -4227,6 +4356,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -4365,6 +4495,7 @@ MonoBehaviour:
   trench: 0
   heightNoise:
     noiseType: 0
+    noiseSpace: 0
     frequency: 10
     amplitude: 1
     offset: 0
@@ -4376,6 +4507,7 @@ MonoBehaviour:
     blend: 1
   embankmentNoise:
     noiseType: 0
+    noiseSpace: 0
     frequency: 512
     amplitude: 3
     offset: 0
@@ -4389,6 +4521,7 @@ MonoBehaviour:
   splatSmoothness: 3
   splatNoise:
     noiseType: 0
+    noiseSpace: 0
     frequency: 10
     amplitude: 1
     offset: 0
@@ -5071,18 +5204,21 @@ MonoBehaviour:
     scaleWidthRange: {x: 3, y: 6}
     sink: 0
     scaleMultiplierAtBoundaries: 1
+    weightRange: {x: 0, y: 0}
     flags: 18
   - weight: 0
     scaleHeightRange: {x: 5, y: 5}
     scaleWidthRange: {x: 5, y: 5}
     sink: 0
     scaleMultiplierAtBoundaries: 1
+    weightRange: {x: 0, y: 0}
     flags: 16
   - weight: 0
     scaleHeightRange: {x: 5, y: 5}
     scaleWidthRange: {x: 5, y: 5}
     sink: 0
     scaleMultiplierAtBoundaries: 1
+    weightRange: {x: 0, y: 0}
     flags: 16
   seed: 5
   poissonDisk: {fileID: 570998590550230969, guid: 1e884d56bc6f441a9a9553bc6b29638a, type: 3}
@@ -5092,6 +5228,11 @@ MonoBehaviour:
   occludedByOthers: 1
   minDistanceFromTree: 0
   maxDistanceFromTree: 0
+  minDistanceFromObject: 0
+  maxDistanceFromObject: 0
+  minDistanceFromParent: 0
+  maxDistanceFromParent: 0
+  sdfClamp: 0
   minHeight: -99999
   heightModAmount: 0
   heightModWidth: 5
@@ -5112,6 +5253,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -5123,6 +5265,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -5132,6 +5275,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -5141,6 +5285,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -5158,6 +5303,7 @@ MonoBehaviour:
       smoothness: {x: 20, y: 20}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -5172,6 +5318,7 @@ MonoBehaviour:
       smoothness: {x: 6.3157897, y: 6.3157897}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -5186,6 +5333,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -5200,6 +5348,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -5273,18 +5422,21 @@ MonoBehaviour:
     scaleWidthRange: {x: 12, y: 16}
     sink: 0
     scaleMultiplierAtBoundaries: 1
+    weightRange: {x: 0, y: 0}
     flags: 16
   - weight: 0
     scaleHeightRange: {x: 4, y: 12}
     scaleWidthRange: {x: 4, y: 12}
     sink: 0
     scaleMultiplierAtBoundaries: 1
+    weightRange: {x: 0, y: 0}
     flags: 16
   - weight: 0
     scaleHeightRange: {x: 3, y: 12}
     scaleWidthRange: {x: 3, y: 12}
     sink: 0
     scaleMultiplierAtBoundaries: 1
+    weightRange: {x: 0, y: 0}
     flags: 16
   seed: 53
   poissonDisk: {fileID: 570998590550230969, guid: 1e884d56bc6f441a9a9553bc6b29638a, type: 3}
@@ -5294,6 +5446,11 @@ MonoBehaviour:
   occludedByOthers: 1
   minDistanceFromTree: 0
   maxDistanceFromTree: 0
+  minDistanceFromObject: 0
+  maxDistanceFromObject: 0
+  minDistanceFromParent: 0
+  maxDistanceFromParent: 0
+  sdfClamp: 0
   minHeight: -99999
   heightModAmount: 0
   heightModWidth: 5
@@ -5314,6 +5471,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -5325,6 +5483,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -5334,6 +5493,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -5343,6 +5503,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -5360,6 +5521,7 @@ MonoBehaviour:
       smoothness: {x: 0, y: 3}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -5374,6 +5536,7 @@ MonoBehaviour:
       smoothness: {x: 6.3157897, y: 6.3157897}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -5388,6 +5551,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -5402,6 +5566,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -5526,6 +5691,7 @@ MonoBehaviour:
   trench: 0
   heightNoise:
     noiseType: 0
+    noiseSpace: 0
     frequency: 10
     amplitude: 1
     offset: 0
@@ -5537,6 +5703,7 @@ MonoBehaviour:
     blend: 0
   embankmentNoise:
     noiseType: 0
+    noiseSpace: 0
     frequency: 10
     amplitude: 1
     offset: 0
@@ -5550,6 +5717,7 @@ MonoBehaviour:
   splatSmoothness: 3
   splatNoise:
     noiseType: 2
+    noiseSpace: 0
     frequency: 400
     amplitude: 4
     offset: 0
@@ -6021,6 +6189,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -6032,6 +6201,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -6041,6 +6211,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -6050,6 +6221,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -6067,6 +6239,7 @@ MonoBehaviour:
       smoothness: {x: 0, y: 10}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -6081,6 +6254,7 @@ MonoBehaviour:
       smoothness: {x: 6.3157897, y: 6.3157897}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -6095,6 +6269,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -6109,6 +6284,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -6198,6 +6374,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -6209,6 +6386,7 @@ MonoBehaviour:
     weight: 0.5
     weightNoise:
       noiseType: 3
+      noiseSpace: 0
       frequency: 10
       amplitude: 10
       offset: 0
@@ -6218,6 +6396,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -6227,6 +6406,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -6244,6 +6424,7 @@ MonoBehaviour:
       smoothness: {x: 0, y: 16}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -6258,6 +6439,7 @@ MonoBehaviour:
       smoothness: {x: 1.5789474, y: 3.1578948}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -6272,6 +6454,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -6286,6 +6469,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -6305,6 +6489,12 @@ MonoBehaviour:
   occludedByOthers: 1
   minDistanceFromTree: 0
   maxDistanceFromTree: 0
+  minDistanceFromObject: 0
+  maxDistanceFromObject: 0
+  minDistanceFromParent: 0
+  maxDistanceFromParent: 0
+  sdfClamp: 0
+  weightRange: {x: 0, y: 999999}
 --- !u!1 &935665221
 GameObject:
   m_ObjectHideFlags: 0
@@ -6458,6 +6648,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -6469,6 +6660,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 1
       amplitude: 1
       offset: 0
@@ -6478,6 +6670,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -6487,6 +6680,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -6504,6 +6698,7 @@ MonoBehaviour:
       smoothness: {x: 6, y: 20}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -6518,6 +6713,7 @@ MonoBehaviour:
       smoothness: {x: 6.3157897, y: 6.3157897}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -6532,6 +6728,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -6546,6 +6743,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -6597,6 +6795,7 @@ MonoBehaviour:
     scaleWidthRange: {x: 2, y: 2}
     sink: 0
     scaleMultiplierAtBoundaries: 0.2
+    weightRange: {x: 0, y: 0}
     flags: 24
   seed: 0
   poissonDisk: {fileID: 570998590550230969, guid: 1e884d56bc6f441a9a9553bc6b29638a, type: 3}
@@ -6606,6 +6805,11 @@ MonoBehaviour:
   occludedByOthers: 1
   minDistanceFromTree: 0
   maxDistanceFromTree: 0
+  minDistanceFromObject: 0
+  maxDistanceFromObject: 0
+  minDistanceFromParent: 0
+  maxDistanceFromParent: 0
+  sdfClamp: 0
   minHeight: -99999
   heightModAmount: 0
   heightModWidth: 5
@@ -6626,6 +6830,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -6637,6 +6842,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 3
+      noiseSpace: 0
       frequency: 10
       amplitude: -10
       offset: 0
@@ -6646,6 +6852,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -6655,6 +6862,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -6672,6 +6880,7 @@ MonoBehaviour:
       smoothness: {x: 0, y: 10}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 2
         amplitude: 10
         offset: 0
@@ -6686,6 +6895,7 @@ MonoBehaviour:
       smoothness: {x: 6.3157897, y: 6.3157897}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -6700,6 +6910,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -6714,6 +6925,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -6802,6 +7014,7 @@ MonoBehaviour:
       blend: 0
     noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -7077,6 +7290,7 @@ MonoBehaviour:
   trench: 0
   heightNoise:
     noiseType: 0
+    noiseSpace: 0
     frequency: 10
     amplitude: 1
     offset: 0
@@ -7088,6 +7302,7 @@ MonoBehaviour:
     blend: 0
   embankmentNoise:
     noiseType: 0
+    noiseSpace: 0
     frequency: 10
     amplitude: 1
     offset: 0
@@ -7101,6 +7316,7 @@ MonoBehaviour:
   splatSmoothness: 3
   splatNoise:
     noiseType: 0
+    noiseSpace: 0
     frequency: 512
     amplitude: 2
     offset: 0
@@ -7323,6 +7539,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -7334,6 +7551,7 @@ MonoBehaviour:
     weight: 0.992
     weightNoise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 1
       amplitude: 1
       offset: 0
@@ -7343,6 +7561,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -7352,6 +7571,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -7369,6 +7589,7 @@ MonoBehaviour:
       smoothness: {x: 0, y: 10}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -7383,6 +7604,7 @@ MonoBehaviour:
       smoothness: {x: 6.3157897, y: 6.3157897}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -7397,6 +7619,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -7411,6 +7634,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -7796,12 +8020,14 @@ MonoBehaviour:
     scaleWidthRange: {x: 3, y: 3}
     sink: 0
     scaleMultiplierAtBoundaries: 1
+    weightRange: {x: 0, y: 0}
     flags: 16
   - weight: 0
     scaleHeightRange: {x: 0.3, y: 1}
     scaleWidthRange: {x: 0.3, y: 1}
     sink: 0.5
     scaleMultiplierAtBoundaries: 1
+    weightRange: {x: 0, y: 0}
     flags: 16
   seed: 82
   poissonDisk: {fileID: 570998590550230969, guid: 1e884d56bc6f441a9a9553bc6b29638a, type: 3}
@@ -7811,6 +8037,11 @@ MonoBehaviour:
   occludedByOthers: 1
   minDistanceFromTree: 0
   maxDistanceFromTree: 0
+  minDistanceFromObject: 0
+  maxDistanceFromObject: 0
+  minDistanceFromParent: 0
+  maxDistanceFromParent: 0
+  sdfClamp: 0
   minHeight: -99999
   heightModAmount: 0
   heightModWidth: 5
@@ -7831,6 +8062,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -7842,6 +8074,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 20
       amplitude: 5
       offset: -0.03
@@ -7851,6 +8084,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -7860,6 +8094,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -7877,6 +8112,7 @@ MonoBehaviour:
       smoothness: {x: 0, y: 10}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 2
         amplitude: 10
         offset: 0
@@ -7891,6 +8127,7 @@ MonoBehaviour:
       smoothness: {x: 0, y: 3.1578948}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -7905,6 +8142,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -7919,6 +8157,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -7993,6 +8232,7 @@ MonoBehaviour:
       blend: 0
     noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -8038,6 +8278,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -8049,6 +8290,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 1
       amplitude: 1
       offset: 0
@@ -8058,6 +8300,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -8067,6 +8310,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -8084,6 +8328,7 @@ MonoBehaviour:
       smoothness: {x: 20, y: 20}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -8098,6 +8343,7 @@ MonoBehaviour:
       smoothness: {x: 6.3157897, y: 6.3157897}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -8112,6 +8358,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -8126,6 +8373,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -8653,6 +8901,7 @@ MonoBehaviour:
       blend: 0
     noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -9167,6 +9416,7 @@ MonoBehaviour:
       blend: 0
     noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -9308,6 +9558,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -9319,6 +9570,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 1
       amplitude: 1
       offset: 0
@@ -9328,6 +9580,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -9337,6 +9590,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -9354,6 +9608,7 @@ MonoBehaviour:
       smoothness: {x: 20, y: 20}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -9368,6 +9623,7 @@ MonoBehaviour:
       smoothness: {x: 6.3157897, y: 6.3157897}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -9382,6 +9638,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -9396,6 +9653,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -9433,6 +9691,7 @@ MonoBehaviour:
       blend: 0
     noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -9475,6 +9734,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -9486,6 +9746,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -9495,6 +9756,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -9504,6 +9766,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -9521,6 +9784,7 @@ MonoBehaviour:
       smoothness: {x: 20, y: 20}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -9535,6 +9799,7 @@ MonoBehaviour:
       smoothness: {x: 6.3157897, y: 6.3157897}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -9549,6 +9814,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -9563,6 +9829,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -9695,6 +9962,7 @@ MonoBehaviour:
       blend: 0
     noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -9890,6 +10158,7 @@ MonoBehaviour:
       blend: 0
     noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -9935,6 +10204,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -9946,6 +10216,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 1
       amplitude: 1
       offset: 0
@@ -9955,6 +10226,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -9964,6 +10236,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -9981,6 +10254,7 @@ MonoBehaviour:
       smoothness: {x: 20, y: 20}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -9995,6 +10269,7 @@ MonoBehaviour:
       smoothness: {x: 6.3157897, y: 6.3157897}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -10009,6 +10284,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -10023,6 +10299,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -10094,6 +10371,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -10105,6 +10383,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -10114,6 +10393,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -10123,6 +10403,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -10140,6 +10421,7 @@ MonoBehaviour:
       smoothness: {x: 20, y: 20}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -10154,6 +10436,7 @@ MonoBehaviour:
       smoothness: {x: 6.3157897, y: 6.3157897}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -10168,6 +10451,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -10182,6 +10466,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -10220,6 +10505,7 @@ MonoBehaviour:
       blend: 0
     noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -10265,6 +10551,7 @@ MonoBehaviour:
         blend: 0
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 10
         amplitude: 1
         offset: 0
@@ -10276,6 +10563,7 @@ MonoBehaviour:
     weight: 1
     weightNoise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 1
       amplitude: 1
       offset: 0
@@ -10285,6 +10573,7 @@ MonoBehaviour:
       channel: 0
     weight2Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -10294,6 +10583,7 @@ MonoBehaviour:
       channel: 0
     weight3Noise:
       noiseType: 0
+      noiseSpace: 0
       frequency: 10
       amplitude: 1
       offset: 0
@@ -10311,6 +10601,7 @@ MonoBehaviour:
       smoothness: {x: 20, y: 20}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -10325,6 +10616,7 @@ MonoBehaviour:
       smoothness: {x: 6.3157897, y: 6.3157897}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -10339,6 +10631,7 @@ MonoBehaviour:
       smoothness: {x: 12, y: 12}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -10353,6 +10646,7 @@ MonoBehaviour:
       smoothness: {x: 0.1, y: 0.1}
       noise:
         noiseType: 0
+        noiseSpace: 0
         frequency: 1
         amplitude: 1
         offset: 0
@@ -10618,6 +10912,7 @@ MonoBehaviour:
   trench: 0
   heightNoise:
     noiseType: 0
+    noiseSpace: 0
     frequency: 10
     amplitude: 1
     offset: 0
@@ -10629,6 +10924,7 @@ MonoBehaviour:
     blend: 2
   embankmentNoise:
     noiseType: 0
+    noiseSpace: 0
     frequency: 10
     amplitude: 1
     offset: 0
@@ -10642,6 +10938,7 @@ MonoBehaviour:
   splatSmoothness: 3
   splatNoise:
     noiseType: 0
+    noiseSpace: 0
     frequency: 512
     amplitude: 2
     offset: 0
