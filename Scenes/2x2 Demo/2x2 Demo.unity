@@ -289,7 +289,7 @@ Transform:
   m_GameObject: {fileID: 59416311}
   m_LocalRotation: {x: 0, y: 0.47209445, z: 0, w: 0.881548}
   m_LocalPosition: {x: -328, y: 63.9, z: -61}
-  m_LocalScale: {x: 2000, y: 2000, z: 3747.3762}
+  m_LocalScale: {x: 2000, y: 200, z: 3747.3762}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 146510963}
@@ -4196,7 +4196,7 @@ Transform:
   m_GameObject: {fileID: 370074570}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 48, y: 0, z: -587}
-  m_LocalScale: {x: 3000, y: 3000, z: 3000}
+  m_LocalScale: {x: 3000, y: 200, z: 3000}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 52296480}
@@ -5615,7 +5615,7 @@ Transform:
   m_GameObject: {fileID: 447417702}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -402, y: 0, z: 939}
-  m_LocalScale: {x: 3787.32, y: 1200, z: 1200}
+  m_LocalScale: {x: 3787.32, y: 300, z: 1200}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 873008032}
@@ -7397,7 +7397,7 @@ Transform:
   m_GameObject: {fileID: 681889225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 291, y: 0, z: 939}
-  m_LocalScale: {x: 3010.68, y: 1200, z: 1200}
+  m_LocalScale: {x: 3010.68, y: 300, z: 1200}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 873008032}
@@ -7746,7 +7746,7 @@ Transform:
   m_GameObject: {fileID: 682270904}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -154, y: -13.538635, z: -475.38034}
-  m_LocalScale: {x: 789.69385, y: 789.69385, z: 2147.895}
+  m_LocalScale: {x: 789.69385, y: 300, z: 2147.895}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 299941129}
@@ -8302,7 +8302,7 @@ Transform:
   m_GameObject: {fileID: 732819635}
   m_LocalRotation: {x: 0, y: 0.2759639, z: 0, w: 0.961168}
   m_LocalPosition: {x: -154, y: -43.038635, z: -475.38034}
-  m_LocalScale: {x: 789.69385, y: 789.69385, z: 2147.895}
+  m_LocalScale: {x: 789.69385, y: 300, z: 2147.895}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 299941129}
@@ -8706,7 +8706,7 @@ Transform:
   m_GameObject: {fileID: 752472070}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -154, y: -13.538635, z: -475.38034}
-  m_LocalScale: {x: 789.69385, y: 789.69385, z: 2147.895}
+  m_LocalScale: {x: 789.69385, y: 300, z: 2147.895}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 299941129}
@@ -10633,7 +10633,7 @@ Transform:
   m_GameObject: {fileID: 884174343}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 291, y: 0, z: 939}
-  m_LocalScale: {x: 2348.88, y: 1200, z: 1200}
+  m_LocalScale: {x: 2348.88, y: 300, z: 1200}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 873008032}
@@ -11853,7 +11853,7 @@ Transform:
   m_GameObject: {fileID: 960348444}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -965, y: 0, z: -587}
-  m_LocalScale: {x: 1000, y: 1, z: 1000}
+  m_LocalScale: {x: 1000, y: 200, z: 1000}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 52296480}
@@ -12558,7 +12558,7 @@ Transform:
   m_GameObject: {fileID: 975160337}
   m_LocalRotation: {x: 0, y: 0.47209445, z: 0, w: 0.881548}
   m_LocalPosition: {x: -328, y: 63.9, z: -61}
-  m_LocalScale: {x: 2000, y: 2000, z: 3747.3762}
+  m_LocalScale: {x: 2000, y: 200, z: 3747.3762}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 146510963}
@@ -12663,7 +12663,7 @@ GameObject:
   - component: {fileID: 982784611}
   - component: {fileID: 982784610}
   m_Layer: 0
-  m_Name: TrrePath
+  m_Name: TreePath
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12758,7 +12758,7 @@ MonoBehaviour:
       channel: 0
     weight2NoiseOp: 0
     weight3NoiseOp: 0
-    version: 0
+    version: 2
     heightFilter:
       enabled: 0
       filterType: 0
@@ -12823,8 +12823,8 @@ MonoBehaviour:
       enabled: 0
       filterType: 0
       weight: 1
-      range: {x: 0, y: 18}
-      smoothness: {x: 4, y: 4}
+      range: {x: 0, y: 28.421053}
+      smoothness: {x: 6.3157897, y: 6.3157897}
       noise:
         noiseType: 0
         noiseSpace: 0
@@ -18943,7 +18943,7 @@ Transform:
   m_GameObject: {fileID: 1738246132}
   m_LocalRotation: {x: 0, y: 0.47209445, z: 0, w: 0.881548}
   m_LocalPosition: {x: -60, y: 63.9, z: -1686}
-  m_LocalScale: {x: 1000, y: 1000, z: 1000}
+  m_LocalScale: {x: 1000, y: 200, z: 1000}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 146510963}
@@ -21328,7 +21328,8 @@ PrefabInstance:
       propertyPath: m_Text
       value: "The area ahead is defined by a spline based area, and features dense
         folliage. Falloff's allow you to define areas of stamps, and come in many
-        forms. \n"
+        forms. \n\nSpline areas can be used to constrain the effects of any type
+        of stamp, allowing for arbitrary shaping of your world.\n"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9e39e63f8245e0b600864885c9eaf8, type: 3}
