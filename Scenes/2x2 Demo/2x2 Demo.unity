@@ -10777,7 +10777,7 @@ MonoBehaviour:
         m_PostInfinity: 2
         m_RotationOrder: 4
       _curveTexture: {fileID: 0}
-    textureFilterEnabled: 1
+    textureFilterEnabled: 0
     otherTextureWeight: 0
     textureFilters:
     - layer: {fileID: 8574412962073106934, guid: d306062c2d1ceee42ad7792bdcd6f941, type: 2}
