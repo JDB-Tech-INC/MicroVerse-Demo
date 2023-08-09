@@ -6177,6 +6177,9 @@ MonoBehaviour:
   falloff: 0
   falloffParams: {x: 0.8, y: 1}
   spline: {fileID: 0}
+  worldHeightRange: {x: 0, y: 0}
+  worldHeightFalloff: {x: 0, y: 0}
+  maskTarget: {fileID: 0}
 --- !u!1 &547278827
 GameObject:
   m_ObjectHideFlags: 0
@@ -15596,6 +15599,9 @@ MonoBehaviour:
   falloff: 3
   falloffParams: {x: 4, y: 30}
   spline: {fileID: 1077607376}
+  worldHeightRange: {x: 0, y: 0}
+  worldHeightFalloff: {x: 0, y: 0}
+  maskTarget: {fileID: 0}
 --- !u!1 &1087681873
 GameObject:
   m_ObjectHideFlags: 0
@@ -18306,7 +18312,7 @@ MonoBehaviour:
       texture: {fileID: 0}
       textureST: {x: 0, y: 0, z: 1, w: 1}
       channel: 0
-    falloffRange: {x: 0.8, y: 1}
+    falloffRange: {x: 0.8, y: 0.518}
     paintMask:
       bytes: 
       size: 256
