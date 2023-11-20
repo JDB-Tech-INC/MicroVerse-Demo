@@ -6902,9 +6902,9 @@ MonoBehaviour:
   bendingWorldSize: 500
   leafWorldSize: 50
   gustTexture: {fileID: 2800000, guid: b3ba8457fc82d4969968b952eeb3d627, type: 3}
-  gustWorldSize: 1000
-  gistSpeed: 60
-  gustScale: 0.1
+  gustWorldSize: 250
+  gistSpeed: 12
+  gustScale: 5
   point1: {fileID: 0}
   point2: {fileID: 0}
   point3: {fileID: 0}
@@ -6917,7 +6917,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534703825}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2004.4352, y: -280.3371, z: 1130.3026}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27524,7 +27524,7 @@ MonoBehaviour:
       enabled: 1
       filterType: 0
       weight: 1
-      range: {x: 4.5, y: 19.25}
+      range: {x: 6, y: 19.25}
       smoothness: {x: 1, y: 1}
       noise:
         noiseType: 0
