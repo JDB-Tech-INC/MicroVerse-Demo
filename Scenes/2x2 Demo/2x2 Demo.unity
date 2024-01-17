@@ -204,7 +204,7 @@ MonoBehaviour:
       bytes: 
       size: 256
       updateMode: 0
-  blur: 16.85
+  blur: 12.79
   blendMode: 0
 --- !u!64 &22976547
 MeshCollider:
